@@ -1,0 +1,20 @@
+/*WAP To findGreatest number between two numbers using
+ A function*/ 
+ //You dont need to write the comments program ma vako like // paxi ko line leknu pardaina
+#include<stdio.h> //Header file is compulsory
+int check(int a,int b){ //Declaration of function 
+//Function is a block of statement that is declared for performing certain taks hai simple words ma
+	if(a>b){ //SImple logic codes
+		printf("The greatest number is: %d",a);
+	}
+	else if(a<b){
+		printf("The greatest number is: %d",b);
+	}
+}
+int main(){ // main() is also a type of function
+	int a,b;
+	printf("Enter the two number: \n");
+	scanf("%d %d",&a,&b);
+	check(a,b);//Function is called in here
+	return 0;
+}
